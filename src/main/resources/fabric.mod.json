@@ -18,6 +18,9 @@
 	"entrypoints": {
 		"main": [
 			"fr.hytorke.betterendgame.BetterEndGame"
+		],
+		"client": [
+			"fr.hytorke.betterendgame.BetterEndGameClient"
 		]
 	},
 	"mixins": [

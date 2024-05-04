@@ -1,0 +1,46 @@
+{
+  "itemGroup.moreendgame.armors": "MoreEndGame - Armors",
+  "itemGroup.moreendgame.blocks": "MoreEndGame - Blocks",
+  "itemGroup.moreendgame.items": "MoreEndGame - Items",
+
+  "item.moreendgame.ash_dust": "Ash Dust",
+  "item.moreendgame.slimy_rabbit_foot": "Slimy Rabbit Foot",
+  "item.moreendgame.record_player": "Record Player",
+
+  "items.moreendgame.applies_to_text.tooltip": "Applies to:",
+  "items.moreendgame.ingredients_text.tooltip": "Ingredients:",
+  "item.moreendgame.glow_smithing_template": "Smithing Template",
+  "item.moreendgame.glow_smithing_template.tooltip.titleText": "Glowing Upgrade",
+  "item.moreendgame.glow_smithing_template.tooltip.applies_to": "Netherite Helmet",
+  "item.moreendgame.glow_smithing_template.tooltip.ingredient": "Shroom Headlamp",
+  "item.moreendgame.nightv_smithing_template": "Smithing Template",
+  "item.moreendgame.nightv_smithing_template_template.tooltip.titleText": "Night Vision Upgrade",
+  "item.moreendgame.nightv_smithing_template_template.tooltip.applies_to": "Netherite Helmet",
+  "item.moreendgame.nightv_smithing_template_template.tooltip.ingredient": "NightV Goggles",
+  "item.moreendgame.jukebox_smithing_template": "Smithing Template",
+
+  "item.moreendgame.padlock_chest_upgrade": "Padlock Chest Upgrade",
+  "item.moreendgame.copper_chest_upgrade": "Copper Chest Upgrade",
+  "item.moreendgame.iron_chest_upgrade": "Iron Chest Upgrade",
+  "item.moreendgame.gold_chest_upgrade": "Gold Chest Upgrade",
+  "item.moreendgame.diamond_chest_upgrade": "Diamond Chest Upgrade",
+  "item.moreendgame.emerald_chest_upgrade": "Emerald Chest Upgrade",
+  "item.moreendgame.netherite_chest_upgrade": "Netherite Chest Upgrade",
+
+
+  "item.moreendgame.jake_sandwich": "Jake's Sandwich",
+  "item.moreendgame.jake_sandwich.tooltip.0": "§7No lobster soul,",
+  "item.moreendgame.jake_sandwich.tooltip.1": "§7No bird from the window,",
+  "item.moreendgame.jake_sandwich.tooltip.2": "§7But still §6§lGOOD !",
+
+  "item.moreendgame.shroom_headlamp": "Shroom Headlamp",
+  "item.moreendgame.nightv_goggles": "Night Vision Goggles",
+  "item.moreendgame.nightv_netherite_helmet": "Night Vision Netherite Helmet",
+  "item.moreendgame.jukebox_netherite_helmet": "Jukebox Netherite Helmet",
+  "item.moreendgame.shroom_netherite_helmet": "Shroom Netherite Helmet",
+  "item.moreendgame.slimy_netherite_boots": "Slimy Netherite Boots",
+
+
+  "block.moreendgame.ash_block": "Ash Block",
+  "block.moreendgame.woodcutter": "Woodcutter station"
+}

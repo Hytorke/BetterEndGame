@@ -1,8 +1,8 @@
-package fr.hytorke;
+package fr.hytorke.betterendgame;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class BetterEndGame implements ClientModInitializer {
+public class BetterEndGameClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
