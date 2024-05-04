@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "betterendgame",
+	"version": "${version}",
+	"name": "BetterEndGame",
+	"description": "An mod who add more end game content.",
+	"authors": [
+		"Hytorke",
+		"Ewen_E"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/betterendgame/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.hytorke.betterendgame.BetterEndGame"
+		]
+	},
+	"mixins": [
+		"betterendgame.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
