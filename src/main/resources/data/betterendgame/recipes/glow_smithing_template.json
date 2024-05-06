@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "NKN",
+    "#G#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "minecraft:sea_lantern"
+    },
+    "N": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "K": {
+      "item": "minecraft:shroomlight"
+    },
+    "G": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result": {
+    "item": "betterendgame:glow_smithing_template",
+    "count": 1
+  }
+}

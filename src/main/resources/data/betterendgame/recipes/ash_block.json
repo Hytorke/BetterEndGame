@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "betterendgame:ash_dust"
+    }
+  },
+  "result": {
+    "item": "betterendgame:ash_block",
+    "count": 1
+  },
+  "group": "ash"
+}

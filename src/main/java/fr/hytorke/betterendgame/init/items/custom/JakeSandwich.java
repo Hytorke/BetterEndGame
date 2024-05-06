@@ -15,8 +15,8 @@ public class JakeSandwich extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("item.moreendgame.jake_sandwich.tooltip.0"));
-        tooltip.add(Text.translatable("item.moreendgame.jake_sandwich.tooltip.1"));
-        tooltip.add(Text.translatable("item.moreendgame.jake_sandwich.tooltip.2"));
+        tooltip.add(Text.translatable("item.betterendgame.jake_sandwich.tooltip.0"));
+        tooltip.add(Text.translatable("item.betterendgame.jake_sandwich.tooltip.1"));
+        tooltip.add(Text.translatable("item.betterendgame.jake_sandwich.tooltip.2"));
     }
 }

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "MNi",
+    "NNN"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
+    },
+    "M": {
+      "tag": "betterendgame:discs"
+    },
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "betterendgame:record_player",
+    "count": 1
+  }
+}

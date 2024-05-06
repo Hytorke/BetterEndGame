@@ -19,8 +19,14 @@ public class ModBlocks {
             .copyOf(Blocks.GRAVEL)
             .strength(0.3F)));
 
+    public static final Block MAGNETIC_IRON_BLOCK = createBlockRegister("magnetic_iron_block", new Block(FabricBlockSettings
+            .copyOf(Blocks.IRON_BLOCK)
+            .strength(1F)
+            .requiresTool()));
+
     //Blocks Item
     public static final Item ASH_BLOCK_ITEM = ModItems.createItemRegister("ash_block", new BlockItem(ModBlocks.ASH_BLOCK, new FabricItemSettings()));
+    public static final Item MAGNETIC_IRON_BLOCK_ITEM = ModItems.createItemRegister("magnetic_iron_block", new BlockItem(ModBlocks.MAGNETIC_IRON_BLOCK, new FabricItemSettings()));
 
     public static Block createBlockRegister(String name, Block block) {
         return Registry.register(Registries.BLOCK, new Identifier(BetterEndGame.MOD_ID, name), block);

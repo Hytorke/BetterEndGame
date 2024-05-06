@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "addition": {
+    "item": "betterendgame:shroom_headlamp"
+  },
+  "result": {
+    "item": "betterendgame:shroom_netherite_helmet"
+  },
+  "template": {
+    "item": "betterendgame:glow_smithing_template"
+  }
+}

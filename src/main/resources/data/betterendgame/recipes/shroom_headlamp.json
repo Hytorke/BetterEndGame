@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "DSD",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_block"
+    },
+    "D": {
+      "item": "minecraft:dried_kelp"
+    },
+    "S": {
+      "item": "minecraft:shroomlight"
+    }
+  },
+  "result": {
+    "item": "betterendgame:shroom_headlamp",
+    "count": 1
+  }
+}

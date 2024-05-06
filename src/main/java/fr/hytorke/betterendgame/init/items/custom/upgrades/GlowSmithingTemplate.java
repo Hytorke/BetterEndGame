@@ -16,11 +16,11 @@ public class GlowSmithingTemplate extends Item {
     }
 
     public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("item.moreendgame.glow_smithing_template.tooltip.titleText").formatted(Formatting.GRAY));
+        tooltip.add(Text.translatable("item.betterendgame.glow_smithing_template.tooltip.titleText").formatted(Formatting.GRAY));
         tooltip.add(ScreenTexts.EMPTY);
-        tooltip.add(Text.translatable("items.moreendgame.applies_to_text.tooltip").formatted(Formatting.GRAY));
-        tooltip.add(ScreenTexts.space().append(Text.translatable("item.moreendgame.glow_smithing_template.tooltip.applies_to").formatted(Formatting.BLUE)));
-        tooltip.add(Text.translatable("items.moreendgame.ingredients_text.tooltip").formatted(Formatting.GRAY));
-        tooltip.add(ScreenTexts.space().append(Text.translatable("item.moreendgame.glow_smithing_template.tooltip.ingredient").formatted(Formatting.BLUE)));
+        tooltip.add(Text.translatable("items.betterendgame.applies_to_text.tooltip").formatted(Formatting.GRAY));
+        tooltip.add(ScreenTexts.space().append(Text.translatable("item.betterendgame.glow_smithing_template.tooltip.applies_to").formatted(Formatting.BLUE)));
+        tooltip.add(Text.translatable("items.betterendgame.ingredients_text.tooltip").formatted(Formatting.GRAY));
+        tooltip.add(ScreenTexts.space().append(Text.translatable("item.betterendgame.glow_smithing_template.tooltip.ingredient").formatted(Formatting.BLUE)));
     }
 }

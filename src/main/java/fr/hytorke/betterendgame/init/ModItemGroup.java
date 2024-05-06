@@ -1,6 +1,7 @@
 package fr.hytorke.betterendgame.init;
 
 import fr.hytorke.betterendgame.BetterEndGame;
+import fr.hytorke.betterendgame.init.amors.ModArmors;
 import fr.hytorke.betterendgame.init.blocks.ModBlocks;
 import fr.hytorke.betterendgame.init.items.ModItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
@@ -12,8 +13,8 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
-    /*public static final ItemGroup MOREENDGAME_ARMOR_GROUP = createItemGroupRegister("armors", FabricItemGroup.builder()
-            .displayName(Text.translatable("itemGroup.moreendgame.armors"))
+    public static final ItemGroup BETTERENDGAME_ARMOR_GROUP = createItemGroupRegister("armors", FabricItemGroup.builder()
+            .displayName(Text.translatable("itemGroup.betterendgame.armors"))
             .icon(() -> new ItemStack(ModArmors.SHROOM_NETHERITE_HELMET))
             .entries((context, entries) -> {
                 entries.add(ModArmors.SHROOM_HEADLAMP);
@@ -23,20 +24,22 @@ public class ModItemGroup {
                 entries.add(ModArmors.NIGHTV_GOGGLES);
                 entries.add(ModArmors.NIGHTV_NETHERITE_HELMET);
             })
-            .build());*/
+            .build());
 
-    public static final ItemGroup MOREENDGAME_BLOCK_GROUP = createItemGroupRegister("blocks", FabricItemGroup.builder()
-            .displayName(Text.translatable("itemGroup.moreendgame.blocks"))
+    public static final ItemGroup BETTERENDGAME_BLOCK_GROUP = createItemGroupRegister("blocks", FabricItemGroup.builder()
+            .displayName(Text.translatable("itemGroup.betterendgame.blocks"))
             .icon(() -> new ItemStack(ModBlocks.ASH_BLOCK_ITEM))
             .entries((context, entries) -> {
                 entries.add(ModBlocks.ASH_BLOCK_ITEM);
+                entries.add(ModBlocks.MAGNETIC_IRON_BLOCK_ITEM);
             })
             .build());
 
-    public static final ItemGroup MOREENDGAME_ITEMS_GROUP = createItemGroupRegister("items", FabricItemGroup.builder()
-            .displayName(Text.translatable("itemGroup.moreendgame.items"))
+    public static final ItemGroup BETTERENDGAME_ITEMS_GROUP = createItemGroupRegister("items", FabricItemGroup.builder()
+            .displayName(Text.translatable("itemGroup.betterendgame.items"))
             .icon(() -> new ItemStack(ModItems.ASH_DUST))
             .entries((context, entries) -> {
+                entries.add(ModItems.METAL_DETECTOR);
                 entries.add(ModItems.ASH_DUST);
                 entries.add(ModItems.SLIMY_RABBIT_FOOT);
                 entries.add(ModItems.RECORD_PLAYER);

@@ -1,6 +1,7 @@
 package fr.hytorke.betterendgame.init.items;
 
 import fr.hytorke.betterendgame.BetterEndGame;
+import fr.hytorke.betterendgame.init.items.custom.item.MetalDetectorItem;
 import fr.hytorke.betterendgame.init.items.custom.upgrades.GlowSmithingTemplate;
 import fr.hytorke.betterendgame.init.items.custom.JakeSandwich;
 import fr.hytorke.betterendgame.init.items.custom.upgrades.NightVSmithingTemplate;
@@ -19,6 +20,7 @@ public class ModItems {
     public static final Item ASH_DUST = createItemRegister("ash_dust", new Item(new FabricItemSettings().fireproof()));
     public static final Item SLIMY_RABBIT_FOOT = createItemRegister("slimy_rabbit_foot", new Item(new FabricItemSettings()));
     public static final Item RECORD_PLAYER = createItemRegister("record_player", new Item(new FabricItemSettings()));
+    public static final Item METAL_DETECTOR = createItemRegister("metal_detector", new MetalDetectorItem(new FabricItemSettings()));
 
     // Upgrades :
     //   Smithing Upgrades :

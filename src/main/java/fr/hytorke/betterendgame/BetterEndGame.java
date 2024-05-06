@@ -12,7 +12,9 @@ public class BetterEndGame implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		//Registries :
 		ModRegistries.registerMod();
+
 		LOGGER.info("Loading BetterEndGame !");
 	}
 }
