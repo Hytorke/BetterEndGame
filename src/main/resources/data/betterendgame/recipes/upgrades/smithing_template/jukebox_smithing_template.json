@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#J#",
+    "NNN",
+    "#J#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "J": {
+      "item": "minecraft:jukebox"
+    },
+    "N": {
+      "item": "minecraft:note_block"
+    }
+  },
+  "result": {
+    "item": "betterendgame:jukebox_smithing_template",
+    "count": 1
+  }
+}

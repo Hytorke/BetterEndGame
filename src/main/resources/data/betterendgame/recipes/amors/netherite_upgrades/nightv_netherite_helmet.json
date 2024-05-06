@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "addition": {
+    "item": "betterendgame:nightv_goggles"
+  },
+  "result": {
+    "item": "betterendgame:nightv_netherite_helmet"
+  },
+  "template": {
+    "item": "betterendgame:nightv_smithing_template"
+  }
+}

@@ -16,17 +16,24 @@
   "item.betterendgame.metaldetector.diamond": "You selected : Diamond ore.",
   "item.betterendgame.metaldetector.emerald": "You selected : Emerald ore.",
 
+
   "items.betterendgame.applies_to_text.tooltip": "Applies to:",
   "items.betterendgame.ingredients_text.tooltip": "Ingredients:",
+
   "item.betterendgame.glow_smithing_template": "Smithing Template",
   "item.betterendgame.glow_smithing_template.tooltip.titleText": "Glowing Upgrade",
   "item.betterendgame.glow_smithing_template.tooltip.applies_to": "Netherite Helmet",
   "item.betterendgame.glow_smithing_template.tooltip.ingredient": "Shroom Headlamp",
+
   "item.betterendgame.nightv_smithing_template": "Smithing Template",
   "item.betterendgame.nightv_smithing_template_template.tooltip.titleText": "Night Vision Upgrade",
   "item.betterendgame.nightv_smithing_template_template.tooltip.applies_to": "Netherite Helmet",
   "item.betterendgame.nightv_smithing_template_template.tooltip.ingredient": "NightV Goggles",
+
   "item.betterendgame.jukebox_smithing_template": "Smithing Template",
+  "item.betterendgame.jukebox_smithing_template_template.tooltip.titleText": "JukeBox Upgrade",
+  "item.betterendgame.jukebox_smithing_template_template.tooltip.applies_to": "Netherite Helmet",
+  "item.betterendgame.jukebox_smithing_template_template.tooltip.ingredient": "Record Player",
 
   "item.betterendgame.padlock_chest_upgrade": "Padlock Chest Upgrade",
   "item.betterendgame.copper_chest_upgrade": "Copper Chest Upgrade",
@@ -51,5 +58,8 @@
 
 
   "block.betterendgame.ash_block": "Ash Block",
-  "block.betterendgame.woodcutter": "Woodcutter station"
+  "block.betterendgame.woodcutter": "Woodcutter station",
+  "block.betterendgame.magnetic_iron_block": "Magnetic Iron Block",
+  "block.betterendgame.thruster_block": "Thruster Block",
+  "block.betterendgame.compacted_thruster_block": "Compacted Thruster Block"
 }

@@ -1,5 +1,5 @@
 {
   "item": "betterendgame:shroom_headlamp",
-  "luminance": 25,
-  "water_sensitive": true
+  "luminance": 15,
+  "water_sensitive": false
 }

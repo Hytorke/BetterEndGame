@@ -4,6 +4,7 @@ import fr.hytorke.betterendgame.BetterEndGame;
 import fr.hytorke.betterendgame.init.items.custom.item.MetalDetectorItem;
 import fr.hytorke.betterendgame.init.items.custom.upgrades.GlowSmithingTemplate;
 import fr.hytorke.betterendgame.init.items.custom.JakeSandwich;
+import fr.hytorke.betterendgame.init.items.custom.upgrades.JukeboxSmithingTemplate;
 import fr.hytorke.betterendgame.init.items.custom.upgrades.NightVSmithingTemplate;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -26,7 +27,7 @@ public class ModItems {
     //   Smithing Upgrades :
     public static final Item GLOW_SMITHING_TEMPLATE = createItemRegister("glow_smithing_template", new GlowSmithingTemplate(new FabricItemSettings()));
     public static final Item NIGHTV_SMITHING_TEMPLATE = createItemRegister("nightv_smithing_template", new NightVSmithingTemplate(new FabricItemSettings()));
-    public static final Item JUKEBOX_SMITHING_TEMPLATE = createItemRegister("jukebox_smithing_template", new Item(new FabricItemSettings()));
+    public static final Item JUKEBOX_SMITHING_TEMPLATE = createItemRegister("jukebox_smithing_template", new JukeboxSmithingTemplate(new FabricItemSettings()));
     //   Chest Upgrades :
     public static final Item PADLOCK_CHEST_UPGRADE = createItemRegister("padlock_chest_upgrade", new Item(new FabricItemSettings()));
     public static final Item COPPER_CHEST_UPGRADE = createItemRegister("copper_chest_upgrade", new Item(new FabricItemSettings()));

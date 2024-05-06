@@ -1,5 +1,5 @@
 {
   "item": "betterendgame:shroom_netherite_helmet",
-  "luminance": 35,
-  "water_sensitive": true
+  "luminance": 15,
+  "water_sensitive": false
 }

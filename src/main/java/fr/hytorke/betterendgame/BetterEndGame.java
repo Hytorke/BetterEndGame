@@ -14,7 +14,6 @@ public class BetterEndGame implements ModInitializer {
 	public void onInitialize() {
 		//Registries :
 		ModRegistries.registerMod();
-
 		LOGGER.info("Loading BetterEndGame !");
 	}
 }

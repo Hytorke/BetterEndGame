@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#n#",
+    "NGN",
+    "#n#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "N": {
+      "item": "minecraft:netherrack"
+    },
+    "G": {
+      "item": "minecraft:glow_ink_sac"
+    }
+  },
+  "result": {
+    "item": "betterendgame:nightv_smithing_template",
+    "count": 1
+  }
+}

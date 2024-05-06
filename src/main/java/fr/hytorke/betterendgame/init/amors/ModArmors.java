@@ -1,7 +1,7 @@
 package fr.hytorke.betterendgame.init.amors;
 
 import fr.hytorke.betterendgame.BetterEndGame;
-import fr.hytorke.betterendgame.init.amors.custom.NighVGoggles;
+import fr.hytorke.betterendgame.init.amors.custom.NightVGoggles;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -20,12 +20,12 @@ public class ModArmors {
             ArmorItem.Type.HELMET,
             new Item.Settings().fireproof()));
 
-    public static final Item NIGHTV_GOGGLES = createArmorRegister( "nightv_goggles", new NighVGoggles(
+    public static final Item NIGHTV_GOGGLES = createArmorRegister( "nightv_goggles", new NightVGoggles(
             ModArmorMaterials.NIGHT_VISION_GOGGLES,
             ArmorItem.Type.HELMET,
             new Item.Settings()));
 
-    public static final Item NIGHTV_NETHERITE_HELMET = createArmorRegister( "nightv_netherite_helmet", new ArmorItem(
+    public static final Item NIGHTV_NETHERITE_HELMET = createArmorRegister( "nightv_netherite_helmet", new NightVGoggles(
             ModArmorMaterials.NIGHT_VISION_GOGGLES_NETHERITE,
             ArmorItem.Type.HELMET,
             new Item.Settings()));

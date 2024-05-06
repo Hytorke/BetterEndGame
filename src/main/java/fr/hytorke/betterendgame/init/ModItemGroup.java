@@ -32,6 +32,8 @@ public class ModItemGroup {
             .entries((context, entries) -> {
                 entries.add(ModBlocks.ASH_BLOCK_ITEM);
                 entries.add(ModBlocks.MAGNETIC_IRON_BLOCK_ITEM);
+                entries.add(ModBlocks.THRUSTER_BLOCK_ITEM);
+                entries.add(ModBlocks.COMPACTED_THRUSTER_BLOCK_ITEM);
             })
             .build());
 

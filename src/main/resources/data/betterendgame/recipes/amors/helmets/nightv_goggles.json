@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#R#",
+    "DGD",
+    "#n#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_block"
+    },
+    "R": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "D": {
+      "item": "minecraft:dried_kelp"
+    },
+    "G": {
+      "item": "minecraft:glow_ink_sac"
+    },
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "betterendgame:nightv_goggles",
+    "count": 1
+  }
+}

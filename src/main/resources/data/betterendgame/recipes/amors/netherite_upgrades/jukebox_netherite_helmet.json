@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "addition": {
+    "item": "betterendgame:record_player"
+  },
+  "result": {
+    "item": "betterendgame:jukebox_netherite_helmet"
+  },
+  "template": {
+    "item": "betterendgame:jukebox_smithing_template"
+  }
+}
