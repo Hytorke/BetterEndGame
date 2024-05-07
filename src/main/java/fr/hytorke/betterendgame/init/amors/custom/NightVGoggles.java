@@ -22,9 +22,7 @@ public class NightVGoggles extends ArmorItem {
         if (world.isClient || !(entity instanceof PlayerEntity player)) return;
 
         if (player.getEquippedStack(EquipmentSlot.HEAD).getItem() == ModArmors.NIGHTV_GOGGLES || player.getEquippedStack(EquipmentSlot.HEAD).getItem() == ModArmors.NIGHTV_NETHERITE_HELMET) {
-            player.addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, -1, 0, true, false));
-        } else if (player.hasStatusEffect(StatusEffects.NIGHT_VISION)) {
-            player.removeStatusEffect(StatusEffects.NIGHT_VISION);
+            player.addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 240, 0, true, false));
         }
 
         super.inventoryTick(stack, world, entity, slot, selected);

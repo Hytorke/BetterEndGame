@@ -2,7 +2,8 @@
 	"parent": "block/block",
 	"textures": {
 		"1": "betterendgame:block/thruster_block_top",
-		"2": "betterendgame:block/thruster_block_sides"
+		"2": "betterendgame:block/thruster_block_sides",
+		"particle": "minecraft:slime_block"
 	},
 	"elements": [
 		{

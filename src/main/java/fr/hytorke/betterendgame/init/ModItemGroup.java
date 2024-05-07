@@ -34,6 +34,7 @@ public class ModItemGroup {
                 entries.add(ModBlocks.MAGNETIC_IRON_BLOCK_ITEM);
                 entries.add(ModBlocks.THRUSTER_BLOCK_ITEM);
                 entries.add(ModBlocks.COMPACTED_THRUSTER_BLOCK_ITEM);
+                entries.add(ModBlocks.REALLY_COMPACTED_THRUSTER_BLOCK_ITEM);
             })
             .build());
 

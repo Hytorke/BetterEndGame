@@ -61,5 +61,6 @@
   "block.betterendgame.woodcutter": "Woodcutter station",
   "block.betterendgame.magnetic_iron_block": "Magnetic Iron Block",
   "block.betterendgame.thruster_block": "Thruster Block",
-  "block.betterendgame.compacted_thruster_block": "Compacted Thruster Block"
+  "block.betterendgame.compacted_thruster_block": "Compacted Thruster Block",
+  "block.betterendgame.really_compacted_thruster_block": "Really Compacted Thruster Block"
 }
